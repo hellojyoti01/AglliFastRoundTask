@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task</title>
+    <link rel="stylesheet" href="./style.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500&display=swap" rel="stylesheet">
+   
+    <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
+</head>
+<body>
+<main class="main-container">
+    <header>
+        <nav class="navbar">
+            <div class="left-navBar">
+              <!-- <div class="sidebar-container" onclick="myFunction(this)">
+                <div class="bar1"></div>
+                <div class="bar2"></div>
+                <div class="bar3"></div>
+              </div> -->
+                <img  class="logo"src="https://deepthought.education/assets/images/logo/logo.svg" />
+            </div>
+            <div class="right-navBar">
+                
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-house" viewBox="0 0 16 16">
+                    <path d="M8.707 1.5a1 1 0 0 0-1.414 0L.646 8.146a.5.5 0 0 0 .708.708L2 8.207V13.5A1.5 1.5 0 0 0 3.5 15h9a1.5 1.5 0 0 0 1.5-1.5V8.207l.646.647a.5.5 0 0 0 .708-.708L13 5.793V2.5a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5v1.293L8.707 1.5ZM13 7.207V13.5a.5.5 0 0 1-.5.5h-9a.5.5 0 0 1-.5-.5V7.207l5-5 5 5Z"/>
+                  </svg>
+
+                  <!-- Notification -->
+                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-bell" viewBox="0 0 16 16">
+                    <path d="M8 16a2 2 0 0 0 2-2H6a2 2 0 0 0 2 2zM8 1.918l-.797.161A4.002 4.002 0 0 0 4 6c0 .628-.134 2.197-.459 3.742-.16.767-.376 1.566-.663 2.258h10.244c-.287-.692-.502-1.49-.663-2.258C12.134 8.197 12 6.628 12 6a4.002 4.002 0 0 0-3.203-3.92L8 1.917zM14.22 12c.223.447.481.801.78 1H1c.299-.199.557-.553.78-1C2.68 10.2 3 6.88 3 6c0-2.42 1.72-4.44 4.005-4.901a1 1 0 1 1 1.99 0A5.002 5.002 0 0 1 13 6c0 .88.32 4.2 1.22 6z"/>
+                  </svg>
+
+                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-broadcast-pin" viewBox="0 0 16 16">
+                    <path d="M3.05 3.05a7 7 0 0 0 0 9.9.5.5 0 0 1-.707.707 8 8 0 0 1 0-11.314.5.5 0 0 1 .707.707zm2.122 2.122a4 4 0 0 0 0 5.656.5.5 0 1 1-.708.708 5 5 0 0 1 0-7.072.5.5 0 0 1 .708.708zm5.656-.708a.5.5 0 0 1 .708 0 5 5 0 0 1 0 7.072.5.5 0 1 1-.708-.708 4 4 0 0 0 0-5.656.5.5 0 0 1 0-.708zm2.122-2.12a.5.5 0 0 1 .707 0 8 8 0 0 1 0 11.313.5.5 0 0 1-.707-.707 7 7 0 0 0 0-9.9.5.5 0 0 1 0-.707zM6 8a2 2 0 1 1 2.5 1.937V15.5a.5.5 0 0 1-1 0V9.937A2 2 0 0 1 6 8z"/>
+                  </svg>
+                  <img class="dp_image" width="20px"src="https://lh3.googleusercontent.com/ogw/AOh-ky0bLAaEO0cwG9CKW19MmibfnOyikVBZ8X9iqhE2=s32-c-mo"/>
+
+
+                  <!-- <div class="sidebar-container-small">
+                    <div class="bar1"></div>
+                    <div class="bar2"></div>
+                    <div class="bar3"></div>
+                  </div> -->
+                  </svg>
+            </div>
+        </nav>
+        
+        <!-- sidebar -->
+        <!-- <div class="left-sidebar-const">
+          <ul>
+            <li>Asset Heading 1</li>
+            <li>Asset Heading 2</li>
+            <li>Asset Heading 3</li>
+            <li>Asset Heading 4</li>
+            <li>Asset Heading 5</li>
+            <li>Asset Heading 6</li>
+          </ul>
+        </div> -->
+      </header>
+      <div class="background-main-body">
+        <div class="sidebar-content sidebar-toogle ">
+        <div class="sidebar-container" onclick="myFunction(this)">
+          <div class="bar1"></div>
+          <div class="bar2"></div>
+          <div class="bar3"></div>
+        </div>
+        <div class="left-sidebar-const">
+          <ul>
+            <li id="unique-open">1</li>
+            <li>1.Name Of The Task Goes Here </li>
+            <a href="#headingOne">
+            <li>Asset Heading 1</li>
+          </a>
+          <a href="#headingTwo">
+            <li>Asset Heading 2</li>
+          </a>
+          <a href="#headingThree">
+            <li>Asset Heading 3</li>
+          </a>
+          <a href="#headingfour">
+            <li>Asset Heading 4</li>
+          </a>
+          <a href="#headingFive">
+            <li>Asset Heading 5</li>
+          </a>
+          <a href="#headingSix">
+            <li>Asset Heading 6</li>
+          </a>
+          </ul>
+        </div>
+      </div>
+    <section class="main-body">
+      <header class="top-header-body">
+        <div class="content-header-top">
+          <p> You Are Taking Challenge Of New Project </p>
+          
+        </div>
+        <div class="header-center">
+          Name Of The Task Goes Here
+        </div>
+
+      </header>
+      <div class="row">
+        <div class="column" id="headingOne">
+          <div class="inner-content">
+          <div class="top-heading-colomn"><p>Asset Heading 1</p></div>
+         <div class="buttom-heading-colomn-one"><p></p></div>
+        </div>
+
+        </div>
+        <div class="column" id="headingTwo">
+          <div class="top-heading-colomn"><p>Asset Heading 2</p></div>
+          <div class="buttom-heading-colomn-two">
+            <textarea rows="7" cols="35" placeholder="Plese Add Your Note ...!!"></textarea>
+            <button class="button button4">submit</button>
+          </div>
+        </div>
+        <div class="column" id="headingThree">
+          <div class="top-heading-colomn"><p>Asset Heading 3</p></div>
+          <div class="buttom-heading-colomn-three">
+            <iframe  class="doc-pdf" src="" allow="autoplay"></iframe>
+          </div>
+        </div>
+        <div class=" column columnfour" id="headingfour">
+          <div class="top-heading-colomn"><p>Asset Heading 4</p></div>
+          <div class="buttom-heading-colomn-four">
+            <iframe  class="butun-gif" src="" allow="autoplay"></iframe>
+          </div>
+        </div>
+        <div class="column" id="headingFive">
+          <div class="top-heading-colomn"><p>Asset Heading 5</p></div>
+          <div class="buttom-heading-colomn-five">
+            <iframe  class="audio" src="" allow="autoplay"></iframe>
+            <p class="audio-p"></p>
+          </div>
+        </div>
+        <div class="column" id="headingSix">
+          <div class="top-heading-colomn"><p>Asset Heading 6</p></div>
+          <div class="buttom-heading-colomn-six">
+            <iframe  class="video" src="" allow="autoplay"></iframe>
+          </div>
+        </div>
+      </div>
+      
+    </section>
+  </div>
+</main>
+<script  src="./script.js"></script>
+</body>
+</html>
